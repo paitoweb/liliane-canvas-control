@@ -80,6 +80,12 @@ This generates the runtime plugin bundle (`main.js`) and any hashed asset files 
 npm run watch
 ```
 
+## Verification
+
+This repository includes a minimal GitHub Actions workflow that installs dependencies with legacy-compatible npm settings and runs `npm run build` on pushes and pull requests targeting `main`.
+
+That workflow is meant to keep this historical snapshot reproducible. It should not be read as a statement of active feature development or modern platform support.
+
 ## Loading the plugin in Adobe XD
 
 Run `npm install` and `npm run build` first, then use Adobe's XD plugin development workflow to load the plugin folder that contains `manifest.json`. In practice, that means adding this project to the Adobe UXP Developer Tool or the equivalent XD development flow, then launching the panel named `Liliane Canvas Control`.
@@ -122,3 +128,5 @@ This public snapshot intentionally excludes a later local-control experiment so 
 This repository is not open source. Usage is permitted under the custom terms in [LICENSE.md](LICENSE.md).
 
 In short, the code is available for viewing and use, but redistribution, sublicensing, and commercial reuse for third parties are not permitted without prior written permission. Third-party materials, Adobe marks, and Adobe brand assets are excluded from that license.
+
+For asset provenance and third-party notices, see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
