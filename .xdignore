@@ -1,0 +1,14 @@
+.xdignore
+.gitignore
+.npmignore
+.idea/
+.vscode/
+debug.json
+yarn-error.log
+src/
+node_modules/
+package-lock.json
+package.json
+webpack.config.js
+yarn.lock
+README.md

@@ -1,0 +1,381 @@
+.main-controls {
+    width: 128px;
+    height: 128px;
+    background-image: url('../../images/radial.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.info-control {
+    font-family: "Adobe Clean", 'Roboto', sans-serif;
+    line-height: 18px;
+    font-size: 14px;
+    color: #969696;
+}
+.info-pan {
+    font-family: "Adobe Clean", 'Roboto', sans-serif;
+    line-height: 15px;
+    font-size: 12px;
+    color: #969696;
+}
+
+.zoom-btn {
+    width: 32px;
+    height: 32px;
+}
+
+.zoom-out {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.zoom-out .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.zoom-out .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.zoom-out .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.zoom-out:hover .default {
+    opacity: 0;
+}
+
+.zoom-in {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.zoom-in .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.zoom-in .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.zoom-in .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.zoom-in:hover .default {
+    opacity: 0;
+}
+
+.move-up {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.move-up .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.move-up .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-up .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-up:hover .default {
+    opacity: 0;
+}
+
+.move-left {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.move-left .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.move-left .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-left .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-left:hover .default {
+    opacity: 0;
+}
+
+.center-placeholder {
+    width: 32px;
+    height: 32px;
+}
+
+.move-right {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.move-right .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.move-right .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-right .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-right:hover .default {
+    opacity: 0;
+}
+
+.move-down {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.move-down .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.move-down .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-down .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.move-down:hover .default {
+    opacity: 0;
+}
+
+.scroll-selection {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.scroll-selection .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.scroll-selection .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.scroll-selection .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.scroll-selection:hover .default {
+    opacity: 0;
+}
+.scroll-selection-disabled {
+    opacity: 0.3;
+}
+.scroll-selection-disabled:hover {
+    opacity: 0.3;
+}
+.scroll-selection-disabled:hover .default {
+    opacity: 1;
+}
+
+.scroll-artboard {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.scroll-artboard .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.scroll-artboard .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.scroll-artboard .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.scroll-artboard:hover .default {
+    opacity: 0;
+}
+.scroll-artboard-disabled {
+    opacity: 0.3;
+}
+.scroll-artboard-disabled:hover {
+    opacity: 0.3;
+}
+.scroll-artboard-disabled:hover .default {
+    opacity: 1;
+}
+
+.select {
+    background-color: rgba(255, 255, 255, 0);
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+.select .lente {
+    display: block;
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    /* bottom: 0px; */
+    left: 0px;
+    width: 32px;
+    height: 32px;
+}
+.select .default {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.select .hover {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+.select:hover .default {
+    opacity: 0;
+}

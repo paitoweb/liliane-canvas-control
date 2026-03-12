@@ -1,0 +1,9 @@
+.debug.json
+node_modules
+.DS_Store
+.idea/
+.vscode/
+debug.json
+yarn-error.log
+/main.js
+/[0-9a-f]*.png
